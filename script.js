@@ -13,6 +13,7 @@ else{
 }
 addBtn.addEventListener("click", criarTarefa);
 
+
 tarefa.addEventListener('keypress', function (e) {
     if(e.key == 'Enter') criarTarefa()
 })
